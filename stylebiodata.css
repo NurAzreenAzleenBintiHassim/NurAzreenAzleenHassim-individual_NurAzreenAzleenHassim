@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(images/gif.gif);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #efeef3;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100;
+    position: static;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.biodata{
+    width: 220px;
+    height: 15px 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.biodata1{
+    background-color: rgb(52, 245, 149);
+}
+.decoration1{
+    float: none;
+    width: 110%;
+    height: 110%;
+}
+.biodata2{
+    background-color: rgb(107, 105, 245);
+}
+.decoration2{
+    margin-left: -30px;
+    width: 130%;
+    height: 140%;
+}
+.biodata3{
+    background-color: rgb(255, 104, 210);
+}
+.decoration3{
+    width: 100%;
+    height: 100%;
+}
+.biodata4{
+    background-color: rgb(255, 252, 92);
+}
+.decoration4{
+    width: 100%;
+    height: 100%;
+}
+.biodata5{
+    background-color: rgb(238, 31, 31);
+}
+ul{
+    text-align: justify;
+}
+.decoration5{
+    width: 100%;
+    height: 100%;   
+}
+.biodata6{
+    background-color: rgb(28, 152, 235);
+}
+.decoration6{
+    width: 100%;
+    height: 100%;  
+
+}
+.biodata7{
+    background-color: rgb(80, 255, 197);
+    width: 400px;
+    height: 15px 0;
+}
+.decoration7{
+    float: none;
+    width: 20%;
+    height: 20%;
+}
